@@ -1,0 +1,48 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+
+
+.Header1 li{
+display: inline-block;
+padding: 0px 20px;
+}
+
+li{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    padding: 20px 10%;
+    
+}
+
+.Logo {
+    height: 90px;
+    width: 90px;
+}
+
+.Header1 li:hover{
+    color: white;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.Logo{
+    display: flex;
+    align-items:center ;
+    font-size: 60px;
+    font-weight: 200px;
+    font-family: fantasy;
+    padding: 1;
+}
