@@ -52,12 +52,20 @@ li{
 }
 
 .container-2 {
+    display: flex;
+    justify-content: center;
+}
+.container-3 {
     display:grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 32% 32% 32%;
     grid-template-rows: 500px 500px;
     gap: 20px;
     padding: 20px;
     background-color: rebeccapurple;
+}
+
+a {
+    text-decoration: none;
 }
 
 .item-1 {
@@ -69,25 +77,42 @@ li{
     width:200px;
 }
 
-.item-1 a {
-    text-decoration: none;
-}
 .item-2 {
     background-color: white;
+}
+
+.item-2 .img-2{
+    width: 200px;
 }
 
 .item-3 {
     background-color: white;
 }
 
+.item-3 .img-3 {
+    width: 200px;
+}
+
 .item-4 {
     background-color: white;
+}
+
+.item-4 .img-4 {
+    width: 200px;
 }
 
 .item-5 {
     background-color: white;
 }
 
+.item-5 .img-5 {
+    width: 200px;
+}
+
 .item-6 {
     background-color: white;
+}
+
+.item-6 .img-6 {
+    width: 100px;
 }
