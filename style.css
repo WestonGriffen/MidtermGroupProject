@@ -5,7 +5,7 @@ body {
 .Header{    
     display: flex;
     justify-content: space-between;
-    background-color: gray; 
+    background-color: deepskyblue; 
     display:flex;
     align-items: center;
     padding: 20px 10%;
@@ -28,8 +28,8 @@ li{
 }
 
 .Logo {
-    height: 90px;
-    width: 90px;
+    height: 150px;
+    width: 150px;
 }
 
 .Header1 li:hover{
@@ -38,7 +38,7 @@ li{
     cursor: pointer;
 }
 
-.Logo{
+.Logo-word{
     display: flex;
     align-items:center ;
     font-size: 60px;
@@ -61,7 +61,7 @@ li{
     grid-template-rows: 500px 500px;
     gap: 20px;
     padding: 20px;
-    background-color: rebeccapurple;
+    background-color: white;
 }
 
 a {
@@ -70,6 +70,8 @@ a {
 
 .item-1 {
     background-color: white;
+    border: 5px solid gray;
+    border-radius: 20px;
 }
 
 .item-1 .img-1 {
@@ -79,6 +81,8 @@ a {
 
 .item-2 {
     background-color: white;
+    border: 5px solid gray;
+    border-radius: 20px;
 }
 
 .item-2 .img-2{
@@ -87,6 +91,8 @@ a {
 
 .item-3 {
     background-color: white;
+    border: 5px solid gray;
+    border-radius: 20px;
 }
 
 .item-3 .img-3 {
@@ -95,6 +101,8 @@ a {
 
 .item-4 {
     background-color: white;
+    border: 5px solid gray;
+    border-radius: 20px;
 }
 
 .item-4 .img-4 {
@@ -103,6 +111,8 @@ a {
 
 .item-5 {
     background-color: white;
+    border: 5px solid gray;
+    border-radius: 20px;
 }
 
 .item-5 .img-5 {
@@ -111,8 +121,62 @@ a {
 
 .item-6 {
     background-color: white;
+    border: 5px solid gray;
+    border-radius: 20px;
 }
 
 .item-6 .img-6 {
     width: 100px;
+}
+
+.container-4 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.contact {
+    width: 50%;
+    background-color: dodgerblue;
+}
+
+.team {
+    width: 50%;
+    background-color: dodgerblue;
+}
+
+.team-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.member-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.member-info1 {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.member-2 {
+    margin-top: 20px;
+    padding-right: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.member-info2 {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-button {
+    height: 40px;
+    border-radius: 50px;
 }
