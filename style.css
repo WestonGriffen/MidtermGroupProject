@@ -51,6 +51,9 @@ li{
     font-size: 20px;
 }
 
+h2 {
+    font-size: 40px;
+}
 .container-2 {
     display: flex;
     justify-content: center;
@@ -157,6 +160,9 @@ a {
     font-size: 30px;
 }
 
+#contact-topic {
+    font-size: 30px;
+}
 .team {
     width: 50%;
     background-color: dodgerblue;
