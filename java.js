@@ -43,3 +43,8 @@ function hide2() {
     document.getElementById("buttonMember3").style.display = "block"
     document.getElementById("info2").style.display = "none"
 }
+
+window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+})
