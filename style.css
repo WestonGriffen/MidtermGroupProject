@@ -151,6 +151,46 @@ a {
     width: 100px;
 }
 
+.item-7 {
+    background-color: white;
+    border: 5px solid gray;
+    border-radius: 20px;
+}
+
+.item-7 .img-7 {
+    width: 300px;
+}
+
+.item-8 {
+    background-color: white;
+    border: 5px solid gray;
+    border-radius: 20px;
+}
+
+.item-8 .img-8 {
+    width: 200px;
+}
+
+.item-9 {
+    background-color: white;
+    border: 5px solid gray;
+    border-radius: 20px;
+}
+
+.item-9 .img-9 {
+    width: 200px;
+}
+
+.item-10 {
+    background-color: white;
+    border: 5px solid gray;
+    border-radius: 20px;
+}
+
+.item-10 .img-10 {
+    width: 200px;
+}
+
 .container-4 {
     display: flex;
     justify-content: space-between;
