@@ -1,3 +1,5 @@
+var product = ["Soccer Ball","Soccer Cleats","Soccer Shin Guards","Goalkeeper Gloves","Soccer Bag","Water Bottle","Soccer Goal","Speed Agility Training Set","Pinnies Scrimmage Vests Team Practice","Ball Pump",];
+console.log(product);
 function show1() {
     var member1Info = ["CFO", "Phone: 453-234-534532", "Email: asdfasdf@gmail.com"];
     let txt = ""
